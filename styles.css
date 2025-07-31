@@ -2,9 +2,14 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-   
+    font-family: "Bungee Spice", sans-serif;
     background: black;
    
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 
 :root {
@@ -18,17 +23,68 @@
 video {
     width: 50vw;
     margin-left: 50vw;
+    height: 390px;
+   
 }
 
 .menu{
     color: #afc4f1;
+   
+   
 }
+
+.itens-menu {
+    cursor: pointer;
+   
+}
+
+
 
 button{
     color:var(--preto-espacial);
-    background: linear-gradient(var(--cinza-ecuro), var(--cinza-claro));
+    background: #082e80;
+    width: 100px;
+    height: 30px;
+    border-radius: 16px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+   
     
 }
 
+.lista{
+    text-align: center;
+    text-decoration: none;
+    list-style:none ; 
+     display: flex;
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+    margin-left: 60px;
+    gap: 30px; 
+   
+}
 
+.conteudo{
+    width: 30%;
+    margin-left: 130px;
+
+    
+}
+
+.conteudo-p {
+     width: 40%;
+     margin-left: 50px;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     font-size: large;
+     
+}
+
+span {
+      font-family: "Bitcount Prop Single", system-ui;
+      color:#082e80; 
+      font-size: 35px;
+}
 

@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Google Sans Code", monospace;
+   
     background: black;
    
 }
@@ -27,7 +27,7 @@ video {
 button{
     color:var(--preto-espacial);
     background: linear-gradient(var(--cinza-ecuro), var(--cinza-claro));
-    font-family: 'Courier New', Courier, monospace;
+    
 }
 
 
